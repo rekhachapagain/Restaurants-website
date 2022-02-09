@@ -1,0 +1,29 @@
+                    How to git push
+
+ 1. openfolder  in GUI bash 
+2. type= git config --global user.name your name
+3. type= git config --global user.Email "your email"
+4. type= git config --global user.name " your new name" ( Note:- it will change your name )
+
+5. git touch gitignore (Note:- Exception case )
+
+6. git add .    (Note:- for adding new file)
+7. git commit -m "Initial commit"
+8. git status (Note:- to check git status )
+9. git remote add origin sshlink  (Note:  add your git SSH link  in sshlink)
+10. git push origin master
+
+                After this  (goto -  github profile setting - SSH and GPG Keys -click on new SSH- add your name (anything you wish)
+
+          for  SSH kry generation
+11. ssh-keygen -t ram -b 4096 -C "enter your mail" (Note:- after this it will show public pin there just copy that pin and paste it below)
+12. cat public pin (Note:- after this it will show long ssh key there just copy it on paste it on your github profile setting where you already added your name  and paste it on SSH key 
+
+
+
+     for upgrade github (Note:- If you change anything inside your website or project you have to upgrade in your git hub as well)
+     
+1. git status
+2.git add .
+3. git commit -m "name (Note:- what you change if any folder then write that folder name) "
+4. git push origin master 
